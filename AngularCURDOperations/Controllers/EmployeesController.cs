@@ -98,6 +98,11 @@ namespace AngularCURDOperations.Controllers
 
             return NoContent();
         }
+        
+        public IActionResult method1()
+        {
+        Console.writeLine("hi");
+        }
 
         private bool TblEmployeeExists(int id)
         {
